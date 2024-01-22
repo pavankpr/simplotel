@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+
+    margin: 0;
+    background-color: black;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #f76d63;
+    justify-content: center;
+    height: 60px;
+}
+
+li {
+    position: relative;
+    top: -25px;
+    font-weight: bold;
+    display: inline;
+    margin: 30px;
+}
+
+.ul-items {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.menu {
+    width: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+
+}
+
+.first-container {
+
+    padding: 35px;
+    background-color: #ffdbd9;
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+
+}
+
+.burger-container {}
+
+.btn {
+    background-color: #f76d63;
+    padding: 5px;
+    width: 150px;
+}
+
+.clk-btn {
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.botton-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ffdbd9;
+
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 85px;
+    grid-template-areas: 'image3 image1   '
+        'image2 image1 ';
+}
+
+.img {
+    width: 200px;
+    height: 150px;
+}
+
+.img1 {
+    width: 200px;
+    height: 315px;
+    grid-area: image1;
+}
+
+.img2 {
+    grid-area: image2;
+}
+
+.img3 {
+    grid-area: image3;
+
+}
+
+.last-container {
+    display: flex;
+    align-items: center;
+}
+
+.last-two-container {
+    position: relative;
+    left: -160px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 280px;
+    background-color: #f76d63;
+}
